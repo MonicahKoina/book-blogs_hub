@@ -1,4 +1,4 @@
-** Personal Blog**
+**PERSONAL BLOG**
  - An interactive and visually appealing multi-page personal blog built with Vanilla JavaScript, featuring
    smooth animations powered by GreenSock Animation Platform and dynamic blog post loading from a JSON file.
 
