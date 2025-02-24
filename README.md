@@ -1,6 +1,5 @@
-**PERSONAL BLOG**
- - An interactive and visually appealing multi-page personal blog built with Vanilla JavaScript, featuring
-   smooth animations powered by GreenSock Animation Platform and dynamic blog post loading from a JSON file.
+**BOOK BLOGS HUB**
+ - An interactive and visually appealing multi-page book blog built with Vanilla JavaScript, featuring smooth animations powered by GreenSock Animation Platform (GSAP) and dynamically loaded blog posts from a JSON file.
 
 **Features**
 1. Dynamic article loading from a JSON file
@@ -11,8 +10,7 @@
 6. Smooth animations using GSAP
    
 **Technologies Used**
-1. HTML5
-2. CSS3
-3. JavaScript (Vanilla)
-4. JSON
-5. GSAP (GreenSock Animation Platform)
+1. Vanilla JavaScript – For dynamic interactivity
+2. GSAP (GreenSock Animation Platform) – For animations
+3. HTML & CSS – For structuring and styling the blog
+4. JSON – For storing and retrieving blog post data
