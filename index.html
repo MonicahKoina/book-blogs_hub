@@ -8,29 +8,34 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
-    <title>Book blogs Hub</title>
+    <title>Book Blogs Hub</title>
   </head>
   <body>
-    <nav>
-      <div class="logo">
-        <h3>Book Hub</h3>
+    <header>
+      <div class="logo">Book<span class="superscript">Hub</span></div>
+      <button class="moving-btn">Get Free Book!</button>
+    </header>
+    <section id="intro">
+      <div>
+        <h1>
+          Not just another<br />
+          boring review site
+        </h1>
+        <span>This is a hub for stories that matter</span>
+        <button id="view-blogs-btn" class="view-blogs">View Blogs</button>
       </div>
-
-      <div class="nav-links">
-        <ul>
-          <li>Home</li>
-          <li>About us</li>
-          <li>Books</li>
-        </ul>
+      <div>
+        <img
+          src="https://i.pinimg.com/736x/54/68/d0/5468d0841e4cbd467548020fd74640dd.jpg"
+          alt="image1"
+        />
       </div>
-      <div class="icons">
-        <i class="bx bx-search"></i>
-        <i class="bx bx-cloud-upload"></i>
-        <i class="bx bx-bell"></i>
-      </div>
-      <div class="hamburger">
-        <img src="assets/menu-hamburger.svg" alt="hum" />
-      </div>
-    </nav>
+    </section>
+    <section id="blogs">
+      <h2>Latest Blogs</h2>
+      <div id="blog-container"></div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
